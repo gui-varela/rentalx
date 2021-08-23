@@ -10,6 +10,7 @@ const categoriesRoutes = Router();
 const upload = multer({
   dest: "./tmp",
 });
+// lelezeinha, fui comprar cigarro
 
 categoriesRoutes.post("/", (request, response) => {
   return createCategoryController.handle(request, response);
