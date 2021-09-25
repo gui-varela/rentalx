@@ -10,9 +10,6 @@ class User {
   name: string;
 
   @Column()
-  username: string;
-
-  @Column()
   email: string;
 
   @Column()
@@ -23,8 +20,9 @@ class User {
 
   @Column()
   isAdmin: boolean;
+
   @CreateDateColumn()
-  created_ad: Date;
+  created_at: Date;
 
   constructor() {
     if (!this.id) {
