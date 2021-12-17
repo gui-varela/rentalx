@@ -16,7 +16,7 @@ class CreateUserController {
       driver_license,
     });
 
-    return response.status(201).send();
+    return response.status(201).json({ message: "User successfully created!" });
   }
 }
 
