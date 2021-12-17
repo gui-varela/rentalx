@@ -2,8 +2,6 @@ import crypto from "crypto";
 import multer from "multer";
 import { resolve } from "path";
 
-import { categoriesRoutes } from "../routes/categories.routes";
-
 export default {
   upload(folder: string) {
     return {
