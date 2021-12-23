@@ -5,12 +5,12 @@ import swaggerUi from "swagger-ui-express";
 
 import "./database";
 
+import { AppError } from "@errors/AppError";
+
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
 
-import "./shared/container";
-
-import { AppError } from "./errors/AppError";
+import "@shared/container";
 
 const app = express();
 
