@@ -1,10 +1,11 @@
 import { getRepository, Repository } from "typeorm";
 
-import { Category } from "../../entities/Category";
 import {
   ICategoriesRepository,
   ICreateRepositoryDTO,
-} from "../ICategoriesRepository";
+} from "@modules/cars/repositories/ICategoriesRepository";
+
+import { Category } from "../entities/Category";
 
 class CategoriesRepository implements ICategoriesRepository {
   private repository: Repository<Category>;
@@ -12,13 +13,6 @@ class CategoriesRepository implements ICategoriesRepository {
   constructor() {
     this.repository = getRepository(Category);
   }
-
-  // public static getInstance(): CategoriesRepository {
-  //   if (!CategoriesRepository.INSTANCE) {
-  //     CategoriesRepository.INSTANCE = new CategoriesRepository();
-  //   }
-  //   return CategoriesRepository.INSTANCE;
-  // }
 
   async create({ description, name }: ICreateRepositoryDTO): Promise<void> {
     const category = this.repository.create({
