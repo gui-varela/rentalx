@@ -12,7 +12,7 @@ describe("List cars", () => {
   });
 
   it("should be able to list all available cars", async () => {
-    const car = carsRepositoryInMemory.create({
+    const car = await carsRepositoryInMemory.create({
       name: "Car1",
       description: "Car description",
       daily_rate: 140.0,
