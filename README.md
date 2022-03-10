@@ -2,59 +2,71 @@
 # Cadastro de carro
 
   **RF**
-  - [ ] Deve ser possível cadastrar um novo carro.
+  - [X] Deve ser possível cadastrar um novo carro.
 
   **RN**
-  - [ ] Não deve ser possível cadastrar um carro com uma placa já existente.
-  - [ ] O carro deve ser cadastrado com disponibilidade por padrão.
-  - [ ] * O usuário responsável pelo cadastro deve ter perfil administrador.
+  - [X] Não deve ser possível cadastrar um carro com uma placa já existente.
+  - [X] O carro deve ser cadastrado com disponibilidade por padrão.
+  - [X] O usuário responsável pelo cadastro deve ter perfil administrador.
 
 # Listagem de carros
 
   **RF**
-  - [ ] Deve ser possível listar todos os carros disponíveis.
-  - [ ] Deve ser possível listar todos os carros disponíveis pelo nome da categoria.
-  - [ ] Deve ser possível listar todos os carros disponíveis pelo nome da marca.
-  - [ ] Deve ser possível listar todos os carros disponíveis pelo nome do carro.
+  - [X] Deve ser possível listar todos os carros disponíveis.
+  - [X] Deve ser possível listar todos os carros disponíveis pelo nome da categoria.
+  - [X] Deve ser possível listar todos os carros disponíveis pelo nome da marca.
+  - [X] Deve ser possível listar todos os carros disponíveis pelo nome do carro.
 
   **RN**
-  - [ ] O usuário não precisa estar logado no sitema para listar os carros.
+  - [X] O usuário não precisa estar logado no sitema para listar os carros.
 
 # Cadastro de especificação no carro
 
   **RF**
-  - [ ] Deve ser possível listar todos os carros disponíveis.
-  - [ ] Deve ser possível listar todas as especificações.
+  - [X] Deve ser possível listar todas as especificações.
 
   **RN**
-  - [ ] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
-  - [ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
-  - [ ] O usuário responsável pelo cadastro deve ter perfil administrador.
+  - [X] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
+  - [X] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+  - [X] O usuário responsável pelo cadastro deve ter perfil administrador.
 
 # Cadastro de imagens do carro
 
   **RF**
-  - [ ] Deve ser possível cadastrar a imagem do carro.
-  - [ ] Deve ser possível listar todos os carros.
+  - [X] Deve ser possível cadastrar a imagem do carro.
+  - [X] Deve ser possível listar todos os carros.
 
   **RNF**
-  - [ ] Utilizar multer para upload de arquivos.
+  - [X] Utilizar multer para upload de arquivos.
 
   **RN**
-  - [ ] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
-  - [ ] O usuário responsável pelo cadastro deve ter perfil de administrador.
+  - [X] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
+  - [X] O usuário responsável pelo cadastro deve ter perfil de administrador.
 
 # Aluguel de carros
 
   **RF**
-  - [ ] Deve ser possível cadastrar um aluguel.
-  - [ ] Deve ser possível listar todos os carros.
+  - [X] Deve ser possível cadastrar um aluguel.
+  - [X] Deve ser possível listar todos os carros.
 
   **RN**
-  - [ ] O aluguel deve ter duração de pelo menos 24h.
-  - [ ] Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo usuário.
-  - [ ] Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo carro.
-  - [ ] O usuário deve estar logado na aplicação
+  - [X] O aluguel deve ter duração de pelo menos 24h.
+  - [X] Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo usuário.
+  - [X] Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo carro.
+  - [X] O usuário deve estar logado na aplicação
+
+# Devolução de carro
+
+  **RF**
+  - [ ] Deve ser possível realizar a devolução de um carro
+
+  **RN**
+  - [ ] Se o carro for devolvido com menos de 24h, deverá ser cobrada diária completa
+  - [ ] Ao realizar devolução, o carro deve ser liberado para outro aluguel
+  - [ ] Ao realizar devolução, o usuário dever ser liberado para outro aluguel
+  - [ ] Ao realizar devolução, deverá ser calculado o total do aluguel
+  - [ ] Caso o carro seja entregue num horário superior ao previsto para a entrega, deve ser cobrada uma multa no valor proporcional ao atraso
+  - [ ] Caso haja multa, deverá ser somada ao total do aluguel
 
 
 # Legenda
