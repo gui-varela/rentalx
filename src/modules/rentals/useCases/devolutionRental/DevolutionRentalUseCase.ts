@@ -43,7 +43,7 @@ class DevolutionRentalUseCase {
     }
 
     const delay = this.dateProvider.compareInDays(
-      rental.start_date,
+      rental.expected_return_date,
       this.dateProvider.dateNow()
     );
 
