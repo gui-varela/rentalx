@@ -68,6 +68,14 @@
   - [ ] Caso o carro seja entregue num horário superior ao previsto para a entrega, deve ser cobrada uma multa no valor proporcional ao atraso
   - [ ] Caso haja multa, deverá ser somada ao total do aluguel
 
+  # Listagem de Aluguéis para usuário
+
+  **RF**
+  - [ ] Deve ser possível realizar a busca de todos os aluguéis para o usuário
+
+  **RN**
+  - [ ] O usuário deve estar logado na aplicação
+
 
 # Legenda
   **RF** => Requisitos funcionais
