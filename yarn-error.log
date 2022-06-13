@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add nodemailer
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/nodemailer
 
 PATH: 
   F:\Java Coretto\jdk17.0.3_6\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\guilh\OneDrive\Documentos\android\sdk\emulator;C:\Users\guilh\OneDrive\Documentos\android\sdk\tools;C:\Users\guilh\OneDrive\Documentos\android\sdk\tools\bin;C:\Users\guilh\OneDrive\Documentos\android\sdk\platform-tools;;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guilh\AppData\Local\Microsoft\WindowsApps;;C:\Users\guilh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\guilh\AppData\Local\Yarn\bin;C:\tools\Cmder;F:\intelFPGA\20.1\modelsim_ase\win32aloem;F:\intelFPGA_lite\20.1\modelsim_ase\win32aloem;C:\Users\guilh\AppData\Roaming\npm
@@ -36,6 +36,7 @@ npm manifest:
       "express-async-errors": "^3.1.1",
       "jsonwebtoken": "^8.5.1",
       "multer": "^1.4.3",
+      "nodemailer": "^6.7.5",
       "pg": "^8.7.1",
       "reflect-metadata": "^0.1.13",
       "supertest": "^6.2.2",
@@ -3673,6 +3674,11 @@ Lockfile:
     version "2.0.1"
     resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.1.tgz#3d1d395f204f1f2f29a54358b9fb678765ad2fc5"
     integrity sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==
+  
+  nodemailer@^6.7.5:
+    version "6.7.5"
+    resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.7.5.tgz#b30b1566f5fa2249f7bd49ced4c58bec6b25915e"
+    integrity sha512-6VtMpwhsrixq1HDYSBBHvW0GwiWawE75dS3oal48VqRhUvKJNnKnJo2RI/bCVQubj1vgrgscMNW4DHaD6xtMCg==
   
   normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     version "2.5.0"

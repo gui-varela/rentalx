@@ -10,6 +10,7 @@
     "seed:admin": "ts-node-dev src/shared/infra/typeorm/seed/admin.ts"
   },
   "dependencies": {
+    "@types/nodemailer": "^6.4.4",
     "bcryptjs": "^2.4.3",
     "csv-parse": "^4.16.0",
     "dayjs": "^1.10.8",
